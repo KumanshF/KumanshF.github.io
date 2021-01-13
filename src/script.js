@@ -1,7 +1,14 @@
 $(function () {
     $(document).scroll(function () {
       var $nav = $(".fixed-top");
-      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      var $navlink = $(".navbar-link");
+      var $navbrand = $(".navbar-brand-custom");
+      $nav.toggleClass('scrolled', $(this).scrollTop() > 0);
+      $navlink.toggleClass('scrolled', $(this).scrollTop() > 0);
+      $navbrand.toggleClass('scrolled', $(this).scrollTop() > 0);
     });
   });
   
+  $(document).ready(function(){
+    $(this).scrollTop(0);
+});
