@@ -99,11 +99,13 @@
     height: 100vh;
     display: flex;
     margin: 0;
-    background-color: gray;
+    background-image: url("/assets/matt-hardy-6ArTTluciuA-unsplash.jpg");
+    background-position: center;
+    color: whitesmoke;
 }
 
 .title-text-container {
-    margin-top: auto;
+    margin-top: 40vh;
     margin-bottom: auto;
 }
 
@@ -172,7 +174,6 @@
     height: auto;
     min-height: 60vh;
     display: flex;
-    background-color: #1da2d8;
 }
 
 .section2-text-about {
@@ -193,6 +194,25 @@
     background-color: black;
     color: White;
     border-color: white;
+}
+
+.section-3-wavenergy{
+    height: auto;
+    min-height: 60vh;
+    display: flex;
+    background-image: url("/assets/wavenergy.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.4);
+    color: whitesmoke;
+}
+
+.section3-text-wavenergy{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 
