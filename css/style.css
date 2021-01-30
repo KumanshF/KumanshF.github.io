@@ -1,3 +1,7 @@
+html{
+    overflow-x: hidden;
+}
+
 /* Navbar */
 .navbar-content {
     width: 85%;
@@ -75,7 +79,8 @@
 }
 
 .navigation-t {
-    margin-left: 100px;
+    margin-left: 40%;
+    margin-right: auto;
 
 }
 
@@ -83,13 +88,19 @@
     text-decoration: none;
     color: white;
     text-align: left;
-    margin-left: 100px;
+    -moz-transition: color 0.5s ease;
+    -webkit-transition: color 0.5s ease;
+    transition: color 0.5s ease;
+    
+}
+.navigation-links{
+    margin-left: 40%;
     margin-right: auto;
 }
 
 .navigation-link:hover {
     text-decoration: none;
-    color: white;
+    color: #3b89ac;
 }
 
 /*-----FOOTER END---*/
@@ -118,6 +129,9 @@
     .memberphoto {
         height: 200px;
     }
+    .wrap_mission{
+        margin-left:0px;
+    }
 }
 
 @media (min-width: 375px) {
@@ -127,6 +141,9 @@
 
     .memberphoto {
         height: 250px;
+    }
+    .wrap_mission{
+        margin-left:0px;
     }
 }
 
@@ -138,6 +155,9 @@
     .memberphoto {
         height: 300px;
     }
+    .wrap_mission{
+        margin-left:0px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -147,6 +167,9 @@
 
     .memberphoto {
         height: 325px;
+    }
+    .wrap_mission{
+        margin-left:0px;
     }
 }
 
@@ -158,6 +181,9 @@
     .memberphoto {
         height: 350px;
     }
+    .wrap_mission{
+        margin-left:0px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -167,6 +193,9 @@
 
     .memberphoto {
         height: 400px;
+    }
+    .wrap_mission{
+        margin-left:0px;
     }
 }
 
@@ -221,12 +250,12 @@
 
 .aboutus {
     height: auto;
-    min-height: 70vh;
+    min-height: 50vh;
     display: flex;
     margin: 0;
     background-color: gray;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -235,7 +264,8 @@
     height: auto;
     min-height: 60vh;
     display: flex;
-    background-color: #1da2d8;
+    
+    
 }
 
 .section2-text-mission {
@@ -245,9 +275,12 @@
     padding-bottom: 10%;
 }
 
+
+
 .section-3 {
     display: flex;
     height: auto;
+    background-color: whitesmoke;
 }
 
 
@@ -289,16 +322,6 @@
 
 }
 
-.memberphotoalign {
-    display: inline-block;
-    vertical-align: middle;
-    height: 100%;
-}
-
-.memberphoto {
-    width: auto;
-    vertical-align: middle;
-}
 
 .carousel-control-next,
 .carousel-control-prev {
