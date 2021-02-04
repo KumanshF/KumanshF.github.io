@@ -1,6 +1,55 @@
 html{
     overflow-x: hidden;
+
 }
+
+.loader{
+    background-color: rgba(0,174,239);
+    position:fixed;
+    z-index:99999;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+}
+.scrollhide{
+    display:none;
+}
+.spinner {
+    position: absolute;
+    left: 48%;
+    top: 48%;
+    height:60px;
+    width:60px;
+    margin:0px auto;
+    -webkit-animation: rotation .6s infinite linear;
+    -moz-animation: rotation .6s infinite linear;
+    -o-animation: rotation .6s infinite linear;
+    animation: rotation .6s infinite linear;
+    border-left:6px solid rgba(0,174,239,.15);
+    border-right:6px solid rgba(0,174,239,.15);
+    border-bottom:6px solid rgba(0,174,239,.15);
+    border-top:6px solid rgba(0, 88, 121, 0.9);
+    border-radius:100%;
+ }
+
+
+ @-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(359deg);}
+ }
+ @-moz-keyframes rotation {
+    from {-moz-transform: rotate(0deg);}
+    to {-moz-transform: rotate(359deg);}
+ }
+ @-o-keyframes rotation {
+    from {-o-transform: rotate(0deg);}
+    to {-o-transform: rotate(359deg);}
+ }
+ @keyframes rotation {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(359deg);}
+ }
 
 /* Navbar */
 .navbar-content {
@@ -126,8 +175,6 @@ html{
         font-size: 1.75rem;
     }
 
-    .memberphoto {
-        height: 200px;
     }
     .wrap_mission{
         margin-left:0px;
@@ -139,9 +186,6 @@ html{
         font-size: 1.75rem;
     }
 
-    .memberphoto {
-        height: 250px;
-    }
     .wrap_mission{
         margin-left:0px;
     }
@@ -152,9 +196,6 @@ html{
         font-size: 2rem;
     }
 
-    .memberphoto {
-        height: 300px;
-    }
     .wrap_mission{
         margin-left:0px;
     }
@@ -165,9 +206,6 @@ html{
         font-size: 2.5rem;
     }
 
-    .memberphoto {
-        height: 325px;
-    }
     .wrap_mission{
         margin-left:0px;
     }
@@ -178,9 +216,6 @@ html{
         font-size: 3rem;
     }
 
-    .memberphoto {
-        height: 350px;
-    }
     .wrap_mission{
         margin-left:0px;
     }
@@ -191,9 +226,6 @@ html{
         font-size: 4rem;
     }
 
-    .memberphoto {
-        height: 400px;
-    }
     .wrap_mission{
         margin-left:0px;
     }
@@ -319,9 +351,19 @@ html{
 
 .memberphotodiv {
     text-align: center;
-
+    height: 100%;
+    max-height: 350px;
+    overflow: hidden;
+}
+.memberphoto{
+    width: auto;
+    height: 100%;
 }
 
+
+.tm2{
+   filter: opacity(90%); 
+}
 
 .carousel-control-next,
 .carousel-control-prev {
