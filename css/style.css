@@ -175,9 +175,13 @@ html{
         font-size: 1.75rem;
     }
 
-    }
     .wrap_mission{
         margin-left:0px;
+    }
+
+    .memberphotodiv{
+        height: 250px;
+        max-width: 200px;
     }
 }
 
@@ -189,6 +193,10 @@ html{
     .wrap_mission{
         margin-left:0px;
     }
+    .memberphotodiv{
+        height: 250px;
+        max-width: 200px;
+    }
 }
 
 @media (min-width: 544px) {
@@ -198,6 +206,10 @@ html{
 
     .wrap_mission{
         margin-left:0px;
+    }
+    .memberphotodiv{
+        height: 250px;
+        max-width: 200px;
     }
 }
 
@@ -209,6 +221,10 @@ html{
     .wrap_mission{
         margin-left:0px;
     }
+    .memberphotodiv{
+        height: 250px;
+        max-width: 200px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -219,6 +235,10 @@ html{
     .wrap_mission{
         margin-left:0px;
     }
+    .memberphotodiv{
+        height: 300px;
+        max-width: 250px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -228,6 +248,11 @@ html{
 
     .wrap_mission{
         margin-left:0px;
+    }
+
+    .memberphotodiv{
+        height: 300px;
+        max-width: 250px;
     }
 }
 
@@ -322,12 +347,12 @@ html{
 
 
 .membername {
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     margin: 0;
 }
 
 .memberrole {
-    font-size: 0.75rem;
+    font-size: 0.95rem;
     padding: 0;
 }
 
@@ -351,14 +376,9 @@ html{
 
 .memberphotodiv {
     text-align: center;
-    height: 250px;
-    max-width: 200px;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
-}
-.memberphoto{
-    display: block;
 }
 
 
@@ -369,4 +389,14 @@ html{
 .carousel-control-next,
 .carousel-control-prev {
     width: 10%;
+}
+
+.title-Mecc-text{
+    font-size: 3rem;
+}
+.subtext{
+    font-size: 1.5rem;
+    color: gray;
+    font-family: 'Crimson Text', sefir;
+    font-style: italic;
 }
