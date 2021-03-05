@@ -19,6 +19,6 @@ $(document).ready(function(){
   setTimeout(function() {
     $(".loader").fadeOut("slow");
     $(".mainbody").toggleClass('scrollhide');
-}, 1000);
+}, 500);
   
 });
