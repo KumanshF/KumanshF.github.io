@@ -175,10 +175,6 @@ html{
         font-size: 1.75rem;
     }
 
-    .wrap_mission{
-        margin-left:0px;
-    }
-
     .memberphotodiv{
         height: 250px;
         max-width: 200px;
@@ -190,9 +186,6 @@ html{
         font-size: 1.75rem;
     }
 
-    .wrap_mission{
-        margin-left:0px;
-    }
     .memberphotodiv{
         height: 250px;
         max-width: 200px;
@@ -204,9 +197,6 @@ html{
         font-size: 2rem;
     }
 
-    .wrap_mission{
-        margin-left:0px;
-    }
     .memberphotodiv{
         height: 250px;
         max-width: 200px;
@@ -218,9 +208,6 @@ html{
         font-size: 2.5rem;
     }
 
-    .wrap_mission{
-        margin-left:0px;
-    }
     .memberphotodiv{
         height: 250px;
         max-width: 200px;
@@ -232,9 +219,6 @@ html{
         font-size: 3rem;
     }
 
-    .wrap_mission{
-        margin-left:0px;
-    }
     .memberphotodiv{
         height: 300px;
         max-width: 250px;
@@ -246,9 +230,6 @@ html{
         font-size: 4rem;
     }
 
-    .wrap_mission{
-        margin-left:0px;
-    }
 
     .memberphotodiv{
         height: 300px;
@@ -399,4 +380,11 @@ html{
     color: gray;
     font-family: 'Crimson Text', sefir;
     font-style: italic;
+}
+.section-2-Mecc{
+    margin-top: 100px;
+}
+.section2-text-Mecc{
+    margin-top: auto;
+    margin-bottom: auto;
 }
