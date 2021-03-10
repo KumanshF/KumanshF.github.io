@@ -174,10 +174,15 @@ html{
     .title-text {
         font-size: 1.75rem;
     }
-
+    .membername{
+        font-size: 1.35rem;
+    }
     .memberphotodiv{
-        height: 250px;
-        max-width: 200px;
+        height: 180px;
+        width: 180px;
+    }
+    .memberrole {
+        font-size: 0.85rem;
     }
 }
 
@@ -185,10 +190,15 @@ html{
     .title-text {
         font-size: 1.75rem;
     }
-
+    .membername{
+        font-size: 1.45rem;
+    }
     .memberphotodiv{
-        height: 250px;
-        max-width: 200px;
+        height: 180px;
+        width: 180px;
+    }
+    .memberrole {
+        font-size: 0.85rem;
     }
 }
 
@@ -196,10 +206,15 @@ html{
     .title-text {
         font-size: 2rem;
     }
-
+    .membername{
+        font-size: 1.5rem;
+    }
     .memberphotodiv{
-        height: 250px;
-        max-width: 200px;
+        height: 180px;
+        width: 180px;
+    }
+    .memberrole {
+        font-size: 0.85rem;
     }
 }
 
@@ -207,10 +222,15 @@ html{
     .title-text {
         font-size: 2.5rem;
     }
-
+    .membername{
+        font-size: 1.5rem;
+    }
     .memberphotodiv{
-        height: 250px;
-        max-width: 200px;
+        height: 200px;
+        width: 200px;
+    }
+    .memberrole {
+        font-size: 0.9rem;
     }
 }
 
@@ -218,10 +238,15 @@ html{
     .title-text {
         font-size: 3rem;
     }
-
+    .membername{
+        font-size: 1.75rem;
+    }
     .memberphotodiv{
-        height: 300px;
-        max-width: 250px;
+        height: 220px;
+        width: 220px;
+    }
+    .memberrole {
+        font-size: 1rem;
     }
 }
 
@@ -230,10 +255,15 @@ html{
         font-size: 4rem;
     }
 
-
+    .membername{
+        font-size: 1.75rem;
+    }
     .memberphotodiv{
-        height: 300px;
-        max-width: 250px;
+        height: 220px;
+        width: 220px;
+    }
+    .memberrole {
+        font-size: 1rem;
     }
 }
 
@@ -333,26 +363,18 @@ html{
 
 
 .membername {
-    font-size: 1.75rem;
     margin: 0;
 }
 
 .memberrole {
-    font-size: 0.95rem;
     padding: 0;
 }
 
 .socialicon {
     color: black;
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
-
-#memberCarousel {
-    padding-left: 8%;
-    padding-right: 8%;
-    height: auto;
-}
 
 .carousel-inner {
     margin: 2%;
@@ -365,6 +387,7 @@ html{
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
+    border-radius: 50%;
 }
 
 
