@@ -1,6 +1,8 @@
 html{
     overflow-x: hidden;
-
+}
+q{
+    font-style: italic;
 }
 
 .loader{
@@ -160,7 +162,12 @@ html{
     display: flex;
     margin: 0;
     background-image: url("/assets/matt-hardy-6ArTTluciuA-unsplash.jpg");
-    background-position: center;
+    background-position:center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     color: whitesmoke;
 }
 
@@ -175,14 +182,14 @@ html{
         font-size: 1.75rem;
     }
     .membername{
-        font-size: 1.35rem;
+        font-size: 1rem;
     }
     .memberphotodiv{
-        height: 180px;
-        width: 180px;
+        height: 140px;
+        width: 140px;
     }
     .memberrole {
-        font-size: 0.85rem;
+        font-size: 0.7rem;
     }
 }
 
@@ -191,14 +198,14 @@ html{
         font-size: 1.75rem;
     }
     .membername{
-        font-size: 1.45rem;
+        font-size: 1rem;
     }
     .memberphotodiv{
-        height: 180px;
-        width: 180px;
+        height: 140px;
+        width: 140px;
     }
     .memberrole {
-        font-size: 0.85rem;
+        font-size: 0.75rem;
     }
 }
 
@@ -207,14 +214,14 @@ html{
         font-size: 2rem;
     }
     .membername{
-        font-size: 1.5rem;
+        font-size: 1.05rem;
     }
     .memberphotodiv{
-        height: 180px;
-        width: 180px;
+        height: 140px;
+        width: 140px;
     }
     .memberrole {
-        font-size: 0.85rem;
+        font-size: 0.75rem;
     }
 }
 
@@ -223,14 +230,14 @@ html{
         font-size: 2.5rem;
     }
     .membername{
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     }
     .memberphotodiv{
-        height: 200px;
-        width: 200px;
+        height: 150px;
+        width: 150px;
     }
     .memberrole {
-        font-size: 0.9rem;
+        font-size: 0.75rem;
     }
 }
 
@@ -239,14 +246,14 @@ html{
         font-size: 3rem;
     }
     .membername{
-        font-size: 1.75rem;
+        font-size: 1.15rem;
     }
     .memberphotodiv{
-        height: 220px;
-        width: 220px;
+        height: 150px;
+        width: 150px;
     }
     .memberrole {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 }
 
@@ -256,14 +263,14 @@ html{
     }
 
     .membername{
-        font-size: 1.75rem;
+        font-size: 1.15rem;
     }
     .memberphotodiv{
-        height: 220px;
-        width: 220px;
+        height: 150px;
+        width: 150px;
     }
     .memberrole {
-        font-size: 1rem;
+        font-size: 0.85rem;
     }
 }
 
@@ -323,14 +330,18 @@ html{
 
 .aboutus {
     height: auto;
-    min-height: 50vh;
+    min-height: 30vh; 
     display: flex;
-    margin: 0;
-    background-color: gray;
+    margin: 0;    
+    background-color: #006994;
     padding-top: 5%;
     padding-bottom: 5%;
     margin-top: auto;
     margin-bottom: auto;
+}
+.aboutus-title{
+    margin-top: 30vh;
+    color: white;
 }
 
 .section-2-mission {
@@ -369,6 +380,13 @@ html{
 .memberrole {
     padding: 0;
 }
+.memberinfo{
+    min-height: 250px;
+}
+
+.memberinfo{
+    min-height: 100px;
+}
 
 .socialicon {
     color: black;
@@ -388,17 +406,9 @@ html{
     margin-right: auto;
     overflow: hidden;
     border-radius: 50%;
+    display: block;
 }
 
-
-.tm2{
-   filter: opacity(90%); 
-}
-
-.carousel-control-next,
-.carousel-control-prev {
-    width: 10%;
-}
 
 .all-title{
     font-family: 'Roboto Condensed', sans-serif;
@@ -421,4 +431,15 @@ html{
 .section2-text-Mecc{
     margin-top: auto;
     margin-bottom: auto;
+}
+.meccmap{
+    min-height: 200px;
+    max-height: 600px;
+}
+
+.teamphoto{
+    max-height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
