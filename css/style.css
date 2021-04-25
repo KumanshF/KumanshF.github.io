@@ -95,24 +95,13 @@ q{
 }
 
 .fixed-top {
-    background-color: rgba(0, 0, 0, 0.2);
-    transition: background-color 100ms linear;
-}
-
-.fixed-top.scrolled {
-    background-color: black !important;
-    transition: background-color 100ms linear;
-
+    background-color: black;
 }
 
 .navbar-link {
-    color: black;
-    transition: color ease-in-out 0.1s;
-}
-
-.navbar-link.scrolled {
     color: white;
 }
+
 
 /*----Navbar END----*/
 
@@ -333,7 +322,7 @@ q{
     min-height: 30vh; 
     display: flex;
     margin: 0;    
-    background-color: #006994;
+    background-color: whitesmoke;
     padding-top: 5%;
     padding-bottom: 5%;
     margin-top: auto;
@@ -341,7 +330,7 @@ q{
 }
 .aboutus-title{
     margin-top: 30vh;
-    color: white;
+    color: Black;
 }
 
 .section-2-mission {
@@ -442,4 +431,8 @@ q{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.logo{
+    max-height: 35px;
+    padding-left: 2%;
 }
